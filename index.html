@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Healthy project</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="https://supraniti.github.io/Lean-Mean-Drag-and-Drop/dist/lmdd.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body class="body">
+    <section class="left">
+        <div id="vue-example">
+            <div id="drag-scope">
+              <div class="column">
+                <div class="title">Data</div>
+                <todo-container class="regular green lighten-5" :data="food.regular">
+                  <todo-item v-for="(meal, index) in food.regular" :data="meal" :key="index"></todo-item>
+                </todo-container>
+              </div>
+              <div class="column">
+                <div class="title">Eaten</div>
+                <todo-container class="priority green lighten-4" :data="food.priority">
+                  <todo-item v-for="(meal, index) in food.priority" :data="meal" :key="index"></todo-item>
+                </todo-container>
+              </div>
+            <pre>{{$data}}</pre>
+          </div>
+    </section>
+
+<script src="https://unpkg.com/dragula@3.7.2/dist/dragula.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://supraniti.github.io/Lean-Mean-Drag-and-Drop/dist/lmdd.min.js"></script>
+<script src="./src/index.js"></script>
+</body>
+</html>

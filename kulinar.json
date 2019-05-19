@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Свинина",
+        "calories": 259
+    },
+    {
+        "name": "Курица",
+        "calories": 190
+    },
+    {
+        "name": "Говядина",
+        "calories": 187
+    },
+    {
+        "name": "Индейка",
+        "calories": 144
+    },
+    {
+        "name": "Семга",
+        "calories": 140
+    },
+    {
+        "name": "Картошка",
+        "calories": 76
+    },
+    {
+        "name": "Макароны",
+        "calories": 112
+    },
+    {
+        "name": "Гречка",
+        "calories": 110
+    },
+    {
+        "name": "Рис",
+        "calories": 344
+    },
+    {
+        "name": "Огурцы",
+        "calories": 15
+    },
+    {
+        "name": "Помидоры",
+        "calories": 18
+    },
+    {
+        "name": "Сливочное масло",
+        "calories": 748
+    },
+    {
+        "name": "Подсолнечное масло",
+        "calories": 900
+    },
+    {
+        "name": "Молоко",
+        "calories": 64
+    },
+    {
+        "name": "Шоколад",
+        "calories": 544
+    },
+    {
+        "name": "Хлеб",
+        "calories": 310
+    }
+]
